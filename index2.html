@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/digm76oyr/image/upload/v1722738256/Icon_png_xeybjf.png"
+      type="image/png"
+    />
+    <title>IconHolding | Home</title>
+    <style>
+      .menu-hidden {
+        display: none;
+      }
+      .custom-primary {
+        --tw-ring-color: #2c6e63;
+        --tw-text-opacity: 1;
+        color: white;
+        background-color: #2c6e63;
+      }
+      .custom-primary:hover {
+        background-color: #2c6e63;
+      }
+      .custom-input {
+        border: 1px solid #cbd5e0; /* Light gray border */
+        box-shadow: 0 0 0 1px #cbd5e0;
+      }
+      .custom-input:focus {
+        border: 1px solid #007bff;
+        box-shadow: 0 0 0 1px #007bff;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-100">
+    <header
+      class="bg-[#f5fef8] px-2 lg:px-6 py-4 flex justify-between items-center fixed left-0 right-0 top-0 z-20"
+    >
+    <a href="/index.html">
+      <img
+        src="https://res.cloudinary.com/digm76oyr/image/upload/v1727883587/Asset_14_qggxqv.png"
+        class="h-10 w-auto"
+        alt="IconHolding Logo"
+      />
+    </a>
+
+      <div class="hidden lg:flex gap-12 font-semibold text-sm">
+        <a
+          class="menu-link bg-[#2c6e63] menu-link px-3 py-1 text-white rounded-lg hover:text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+          href="/index.html"
+        >
+          Home
+        </a>
+        <a
+          class="menu-link px-3 py-1 rounded-lg hover:text-[#2c6e63] text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+          href="https://obana.africa/"
+        >
+        Obana.Africa
+        </a>
+        <a
+          class="menu-link px-3 py-1 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+          href="https://theoutlet.ng/"
+        >
+        TheOutlet.ng
+        </a>
+        <a
+          class="menu-link px-3 py-1 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+          href="/softwaresol.html"
+        >
+          E-commerce as Service
+        </a>
+        <a
+          class="menu-link px-3 py-1 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+          href="https://vendor.obana.africa/"
+        >
+        Become a vendor
+        </a>
+        <a
+          class="menu-link px-3 py-1 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+          href="https://salesforce.obana.africa/"
+        >
+        Sales Team
+        </a>
+      </div>
+
+      <img
+        src="https://img.icons8.com/?size=100&id=120374&format=png"
+        class="w-10 lg:hidden cursor-pointer"
+        alt="Menu Icon"
+        id="menu-btn"
+      />
+    </header>
+    <div
+      id="mobile-menu"
+      class="hidden bg-[#f5fef8] px-2 lg:px-6 py-4 flex flex-col fixed left-0 right-0 top-[80px] z-20 lg:hidden"
+    >
+      <a
+        class="menu-link px-3 py-1 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+        href="https://iconwholesale.africa/"
+      >
+      Obana.Africa
+      </a>
+      <a
+        class="menu-link px-3 py-1 mb-2 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+        href="/index.html"
+      >
+        Home
+      </a>
+      <a
+        class="menu-link px-3 py-1 mb-2 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+        href="https://theoutlet.ng/"
+      >
+      TheOutlet.ng
+      </a>
+      <a
+        class="menu-link px-3 py-1 mb-2 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+        href="/softwaresol.html"
+      >
+        E-commerce as Service
+      </a>
+      <a
+        class="menu-link px-3 py-1 mb-2 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+        href="https://vendor.obana.africa/"
+      >
+      Become a vendor
+      </a>
+      <a
+        class="menu-link px-3 py-1 mb-2 rounded-lg text-[#2c6e63] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] transition-all"
+        href="https://salesforce.obana.africa/"
+      >
+      Sales Team
+      </a>
+    </div>
+
+    <section
+      class="bg-[url('https://res.cloudinary.com/dbrhu0hos/image/upload/v1705016427/DSC_25256_r1ubqm.jpg')] bg-cover bg-center h-[90vh] flex items-center px-2 lg:px-6"
+    >
+      <div class="w-full">
+        <p
+          class="text-white font-[600] text-[40px] lg:text-[60px] lg:leading-[80px] max-w-[18ch] mb-12"
+        >
+          Facilitating Trade Using Technology
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="relative md:justify-end flex flex-col md:flex-row px-6 md:py-0 md:h-fit bg-[#f5fef8]"
+    >
+      <div
+        class="w-[80%] md:w-[50%] -mt-14 border-8 shadow-2xl border-white h-fit"
+      >
+        <img
+          class=""
+          src="https://res.cloudinary.com/digm76oyr/image/upload/v1727368891/WhatsApp_Image_2024-09-26_at_17.33.09_8ad3874c_lagecf.jpg"
+          alt=""
+        />
+      </div>
+      <div
+        class="flex flex-col items-start mt-0 lg:h-full justify-center md:w-1/2 md:pl-10 py-2"
+      >
+        <h1 class="font-[700] text-[30px] lg:text-[40px]">Our purpose</h1>
+        <p class="w-[90%] text-base">
+          At IconHolding, we leverage technology to enhance trading across
+          Africa, bridging the gap between global markets and local businesses
+          with seamless access to authentic European products and leading
+          fashion brands.
+        </p>
+
+        <h2 class="font-semibold text-lg mt-1">B2B Solutions</h2>
+        <p>
+          We connects African businesses to genuine European goods, offering a
+          reliable supply chain that meets diverse retail needs across the
+          continent.
+        </p>
+
+        <h2 class="font-semibold text-lg mt-1">B2C Solutions</h2>
+        <p>
+          We bring the latest fashion brands directly to Lagos consumers,
+          providing high-quality, stylish options
+        </p>
+        <h2 class="font-semibold text-lg mt-1">Technological Innovation</h2>
+        <p>
+          Committed to driving growth in African trade, we offer cutting-edge
+          technology like advanced inventory systems and B2B e-commerce and lot
+          more platforms that empower businesses to thrive.
+        </p>
+
+        <p class="mt-1 mb-3">
+          By leveraging technology to drive trade and growth, Icon Holding is
+          dedicated to transforming Africa's business landscape
+        </p>
+
+        <a
+          href="mailto:@icongroup.nigeria@gmail.com"
+          class="bg-[#2c6e63] px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
+        >
+        Contact Us
+        </a>
+      </div>
+    </section>
+
+    <section class="px-6 py-1 bg-white">
+      <h1 class="text-center text-base lg:text-[28px] font-[400] text-green-800 mb-12 mt-6">
+        Empowering African Trade with Cutting-Edge Solutions
+      </h1>
+      <!-- Cards Section with Flexbox for Single Layout -->
+      <div class="flex flex-col lg:flex-row justify-center space-y-8 lg:space-y-0 lg:space-x-8">
+      
+        <!-- B2B Platforms -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg w-full lg:w-1/3">
+          <img
+            src="https://res.cloudinary.com/digm76oyr/image/upload/v1727887185/1705068627545_qwa5cg.png"
+            alt="B2B Platforms"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-bold mb-2">B2B Platforms</h2>
+            <p class="text-gray-600 mb-4">
+              Digital marketplace connecting businesses with suppliers, streamlining procurement, and expanding market reach.
+            </p>
+            <ul class="text-gray-600 mb-4">
+              <li class="mb-1">✓ Supplier network</li>
+              <li class="mb-1">✓ Digital procurement</li>
+              <li>✓ Bulk Sales</li>
+            </ul>
+            <a href="https://obana.africa" class="text-green-800 font-semibold">Explore B2B Platforms</a>
+          </div>
+        </div>
+      
+        <!-- E-commerce as Service -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg w-full lg:w-1/3">
+          <img
+            src="https://res.cloudinary.com/digm76oyr/image/upload/v1727888079/what-are-the-types-of-ecommerce-services_s0taxa.jpg"
+            alt="E-commerce as Service"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-bold mb-2">E-commerce as Service</h2>
+            <p class="text-gray-600 mb-4">
+              E-commerce solutions to help businesses establish and grow their online presence effectively.
+            </p>
+            <ul class="text-gray-600 mb-4">
+              <li class="mb-1">✓ Custom online stores</li>
+              <li class="mb-1">✓ Payment integration</li>
+              <li>✓ Order management</li>
+            </ul>
+            <a href="https://salesiq.zohopublic.com/signaturesupport.ls?widgetcode=siqf496fa49c70a3de67a85f0e3ceb80621fa911025996d633d43e5e232cada29ac&e=siqdd6ba94b3d7e2e386153bac641898f910e15c2cedb0e6cc22f9ee4462adb7a36ebde55537be7be74107550067024f2d9" class="text-green-800 font-semibold">Contact Us for E-commerce Services</a>
+          </div>
+        </div>
+      
+        <!-- B2C Platforms -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg w-full lg:w-1/3">
+          <img
+            src="https://res.cloudinary.com/digm76oyr/image/upload/v1727889317/iStock-1140559494_vd8qoi.jpg"
+            alt="B2C Platforms"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h2 class="text-xl font-bold mb-2">B2C Solutions</h2>
+            <p class="text-gray-600 mb-4">
+              Seamless retail solutions tailored to deliver a superior shopping experience directly to consumers.
+            </p>
+            <ul class="text-gray-600 mb-4">
+              <li class="mb-1">✓ Omnichannel retail</li>
+              <li class="mb-1">✓ Personalization tools</li>
+              <li>✓ Secure payment options</li>
+            </ul>
+            <a href="https://theoutlet.ng" class="text-green-800 font-semibold">Explore B2C Solutions</a>
+          </div>
+        </div>
+      
+      </div>
+      
+      <p class="text-center text-gray-600 mt-12">
+        For more information, <a href="mailto:icongroup.nigeria@gmail.com" class="text-green-800 font-semibold">Contact Us</a>
+      </p>      
+            </ul>
+          </div>
+        </div>
+      </div>      
+        </div>
+      </div>      
+        </div>
+      </div>
+    
+      <div class="text-center mt-12">
+        <a
+          href="https://forms.gle/g535QokcCMVyyKWs5"
+          class="bg-[#2c6e63] px-8 py-4 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px] inline-block"
+        >
+          Connect With Our Team
+        </a>
+      </div>
+    </section>
+    </section>
+
+    <section class="px-4 lg:px-12 py-8 lg:py-0 lg:h-[100vh] bg-[#f5fef8]">
+      <div
+        class="flex flex-col gap-4 glg:gap-0 lg:flex-row items-center h-full justify-between"
+      >
+        <div class="flex flex-col items-start h-full justify-center lg:w-[50%]">
+        
+          <p class="w-[90%] text-[16px] lg:text-[20px]">
+            As a key player in the Icon Holding, We offers a vibrant and
+            rewarding environment for sales enthusiasts. By joining us, you'll
+            have the opportunity to showcase your talent, build strong client
+            relationships, and be part of a team that's transforming the
+            wholesale experience.
+          </p>
+
+          <a href="https://forms.gle/g535QokcCMVyyKWs5" target="_blank" rel="noopener noreferrer">
+            <button
+              class="bg-[#2c6e63] px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
+            >
+              VIEW OPEN POSITIONS
+            </button>
+          </a>
+          
+        </div>
+
+        <div class="lg:w-[50%] border-8 shadow-2xl border-white">
+          <img
+            class="w-full"
+            src="https://res.cloudinary.com/digm76oyr/image/upload/v1727368891/two_m1n09s.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="lg:px-0 lg:h-[80vh] mx-auto px-6 py-16">
+      <div class="">
+        <h1 class="text-[30px] text-center lg:text-[52px] font-bold">
+          Our growing footprint
+        </h1>
+        <p
+          class="mt-2 text-base lg:text-[24px] text-center font-[400] text-[#00e67a]"
+        >
+          We now render our products and services across african regions, and
+          are adding new locations all the time!
+        </p>
+
+        <div class="justify-center flex flex-wrap gap-4 items-center px-8">
+          <div class="flex gap-1 flex-col justify-center items-center">
+            <div class="w-32 h-32 xl:w-[160px] xl:h-[160px] relative mt-8">
+              <img
+                class="rounded-full border-[6px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705396088/Lagos_zfrh2u.jpg"
+                alt=""
+              />
+              <img
+                class="w-6 xl:w-[32px] absolute right-0 xl:right-2 top-[20px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705396258/flag-for-flag-nigeria-svgrepo-com_xylanz.svg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[#00e67a] font-bold">Lagos</h1>
+            <p class="text-[12px]">Nigeria</p>
+          </div>
+
+          <div class="flex gap-1 flex-col justify-center items-center">
+            <div class="w-32 h-32 xl:w-[160px] xl:h-[160px] relative mt-8">
+              <img
+                class="rounded-full border-[6px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705399201/2_t9nkwo.jpg"
+                alt=""
+              />
+              <img
+                class="w-6 xl:w-[32px] absolute right-0 xl:right-2 top-[20px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705400093/flag-for-south-africa-svgrepo-com_uncgho.svg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[#00e67a] font-bold">Johannesburg</h1>
+            <p class="text-[12px]">South Africa</p>
+          </div>
+
+          <div class="flex gap-1 flex-col justify-center items-center">
+            <div class="w-32 h-32 xl:w-[160px] xl:h-[160px] relative mt-8">
+              <img
+                class="rounded-full border-[6px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705399201/3_swqyjp.jpg"
+                alt=""
+              />
+              <img
+                class="w-6 xl:w-[32px] absolute right-0 xl:right-2 top-[20px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705400090/flag-for-ghana-svgrepo-com_shxzjw.svg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[#00e67a] font-bold">Accra</h1>
+            <p class="text-[12px]">Ghana</p>
+          </div>
+
+          <div class="flex gap-1 flex-col justify-center items-center">
+            <div class="w-32 h-32 xl:w-[160px] xl:h-[160px] relative mt-8">
+              <img
+                class="rounded-full border-[6px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705399201/4_ywemr8.jpg"
+                alt=""
+              />
+              <img
+                class="w-6 xl:w-[32px] absolute right-0 xl:right-2 top-[20px]"
+                src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705400092/flag-for-kenya-svgrepo-com_rkydon.svg"
+                alt=""
+              />
+            </div>
+            <h1 class="text-[#00e67a] font-bold">Nirobi</h1>
+            <p class="text-[12px]">KENYA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#f5fef8] px-4 lg:px-[150px] py-10 lg:py-12">
+      <h1 class="text-center font-[700] text-[30px] lg:text-[52px]">
+        What our customers say
+      </h1>
+      <p class="text-center text-base lg:text-[20px] font-[400] text-[#00e67a]">
+        Don’t just take it from us! Hear from our happy customers.
+      </p>
+      <div class="flex flex-col mt-12">
+        <p class="text-center italic lg:w-[80%] font-[300] mx-auto">
+          IconHolding has transformed our retail business! Their exclusive
+          European brands give us a unique market edge, and the affordability
+          ensures healthy profit margins. The reliability of their supply chain
+          has been a game-changer, allowing us to meet customer demands
+          seamlessly. The personalized support we receive is invaluable, guiding
+          us in curating the perfect selection for our target audience.
+        </p>
+
+        <div class="flex flex-col justify-center items-center mt-8">
+          <img
+            class="w-[100px] rounded-full border-[4px]"
+            src="https://wasoko.com/wp-content/uploads/2022/02/Pauline-Nduta-300x300.jpeg"
+            alt=""
+          />
+          <h1 class="font-[600] text-[#00e67a] text-[20px]">Tobi Adesokan</h1>
+          <p class="text-[14px] font-[600]">Trend Boutique</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-4 py-10 lg:py-12 mx-auto">
+      <h1
+        class="text-center font-[700] text-[26px] sm:text-[30px] lg:text-[52px]"
+      >
+        A glace at our patner brands
+      </h1>
+      <p
+        class="text-center text-sm sm:text-base lg:text-[20px] font-[400] text-[#00e67a] mb-6 sm:mb-12"
+      >
+        Embark on a journey of style with obana.africa
+      </p>
+
+      <div
+        class="grid grid-cols-2 sm:flex justify-center items-center flex-wrap gap-4 sm:gap-10"
+      >
+        <div
+          class="flex py-4 lg:py-0 flex-col gap-4 justify-center items-center"
+        >
+          <img
+            class="w-32 h-32 xl:w-[160px] xl:h-[160px] rounded-full bg-gray-100"
+            src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705401941/jj_kj0ayl.svg"
+            alt="trusted"
+          />
+          <div class="flex flex-col justify-center items-center">
+            <h2 class="font-[500] text:lg sm:text-2xl text-center">
+              Jack and Jones
+            </h2>
+            <p class="mt-[-5px] text-sm sm:text-base">Retailers</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col py-4 lg:py-0 gap-4 justify-center items-center"
+        >
+          <img
+            class="w-32 h-32 xl:w-[160px] xl:h-[160px] rounded-full bg-gray-100"
+            src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705401941/tommy_hsvkzr.svg"
+            alt="trusted"
+          />
+          <div class="flex flex-col justify-center items-center">
+            <h2 class="font-[500] text:lg sm:text-2xl text-center">
+              Tommy Hilfiger
+            </h2>
+            <p class="mt-[-5px] text-sm sm:text-base">Retailers</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col py-4 lg:py-0 gap-4 justify-center items-center"
+        >
+          <img
+            class="w-32 h-32 xl:w-[160px] xl:h-[160px] rounded-full bg-gray-100"
+            src="https://res.cloudinary.com/dbrhu0hos/image/upload/v1705401941/zara_cinc3y.svg"
+            alt="trusted"
+          />
+          <div class="flex flex-col justify-center items-center">
+            <h2 class="font-[500] text:lg sm:text-2xl text-center">Zara</h2>
+            <p class="mt-[-5px] text-sm sm:text-base">Retailers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100">
+      <div class="flex">
+        <div
+          class="lg:w-[55%] flex px-4 lg:px-20 flex-col items-start py-16 lg:py-36"
+        >
+          <h1 class="font-[700] text-[40px] lg:text-[60px]">Get in touch</h1>
+          <p class="lg:w-[90%] lg:text-[20px] font-[300]">
+            Want to find out more about our business or chat to our team? We’d
+            love to hear from you.
+          </p>
+          <a
+            href="https://wa.me/+2348057750857"
+            class="bg-[#2c6e63] px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
+          >
+          Sales Team
+          </a>
+        </div>
+        <div
+          class="hidden lg:flex w-[50%] bg-[url('https://images.unsplash.com/photo-1502404768591-f24d06b7a366?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center border"
+        ></div>
+      </div>
+    </section>
+
+    <footer
+      class="px-8 py-10 flex flex-col lg:flex-row gap-16 lg:gap-0 justify-between items-center bg-[#f5fef8]"
+    >
+      <div class="flex flex-col gap-4">
+        <button
+          class="flex items-center bg-[#2c6e63] gap-4 px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
+        >
+          <img
+            class="w-[20px]"
+            src="https://img.icons8.com/?size=96&id=22988&format=png"
+            alt=""
+          />
+          DOWNLOAD APP
+        </button>
+        <p class="">Email: icongroup.nigeria@gmail.com</p>
+        <div class="flex gap-4">
+          <a
+            href="https://web.facebook.com/iconwholesaleafrica"
+            class="flex items-center justify-center overflow-hidden flex-grow-0 [40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="white"
+                d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.instagram.com/iconwholesale.africa/"
+            class="w-[40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill="white"
+                d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://x.com/Iconwholesale"
+            class="w-[40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill="white"
+                d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/icongroupafrica"
+            class="w-[40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+          >
+            <svg
+              class="w-6 h-6 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="100"
+              height="100"
+              viewBox="0 0 50 50"
+            >
+              <path
+                fill="white"
+                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <p class="font-[500]">© All Rights Reserved. Privacy Policy.</p>
+
+        <img
+          src="https://fazsion.ng/storage/app/public/business/2023-12-25-6589e13abc01a.png"
+          alt=""
+        />
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const mobileMenuButton = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        // Ensure the mobile menu is hidden initially
+        mobileMenu.classList.add("hidden");
+
+        mobileMenuButton.addEventListener("click", function () {
+          mobileMenu.classList.toggle("hidden");
+        });
+      });
+    </script>
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "siqf496fa49c70a3de67a85f0e3ceb80621fa911025996d633d43e5e232cada29ac", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zohopublic.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+  </body>
+</html>
