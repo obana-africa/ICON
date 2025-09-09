@@ -135,16 +135,26 @@
     </div>
 
     <section
-      class="bg-[url('https://res.cloudinary.com/dbrhu0hos/image/upload/v1705016427/DSC_25256_r1ubqm.jpg')] bg-cover bg-center h-[90vh] flex items-center px-2 lg:px-6"
+  class="relative flex items-center h-[90vh] bg-cover bg-center px-2 lg:px-6"
+  style="background-image: url('https://res.cloudinary.com/dbrhu0hos/image/upload/v1705016427/DSC_25256_r1ubqm.jpg');"
+>
+  <!-- Overlay for better text contrast -->
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10 w-full flex flex-col items-start text-left max-w-3xl ml-2 md:ml-8">
+    <h1 class="text-white font-extrabold text-4xl md:text-6xl lg:text-7xl leading-tight drop-shadow-lg mb-6">
+      Facilitating Trade<br class="hidden md:block" />Using Technology
+    </h1>
+    <p class="text-white text-lg md:text-2xl mb-8 font-medium drop-shadow max-w-xl">
+      Powering African trade and global access with technology.
+    </p>
+    <a
+      href="https://wa.me/+2348057750857"
+      class="inline-block bg-[#2c6e63] hover:bg-transparent hover:text-[#2c6e63] hover:border hover:border-[#2c6e63] text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-200 shadow-lg"
     >
-      <div class="w-full">
-        <p
-          class="text-white font-[600] text-[40px] lg:text-[60px] lg:leading-[80px] max-w-[18ch] mb-12"
-        >
-          Facilitating Trade Using Technology
-        </p>
-      </div>
-    </section>
+      Get Started
+    </a>
+  </div>
+</section>
 
     <section
       class="relative md:justify-end flex flex-col md:flex-row px-6 md:py-0 md:h-fit bg-[#f5fef8]"
@@ -193,14 +203,50 @@
           dedicated to transforming Africa's business landscape
         </p>
 
-        <a
+        <!-- /<a
           href="mailto:@icongroup.nigeria@gmail.com"
           class="bg-[#2c6e63] px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
         >
         Contact Us
-        </a>
+        </a> -->
       </div>
     </section>
+    <section class="px-6 py-14 bg-[#f5fef8]">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-[#2c6e63]">
+      Subsidiaries & Strategic Partnerships
+    </h2>
+    <p class="text-lg lg:text-xl text-gray-700 mb-8">
+      Through our subsidiary, Icontech & Ecommerce, IconHolding is an official Zoho Partner. delivering expert business integration and digital solutions. Our Zoho alliance empowers African enterprises with scalable tools to streamline operations and accelerate growth.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-10 mt-8">
+      <div class="flex flex-col items-center">
+        <img 
+          src="https://res.cloudinary.com/dfmigbgri/image/upload/v1757407268/Tech_and_Eccommerce_syuzbh.png" 
+          alt="Icontech & Ecommerce Logo" 
+          class="w-28 h-28 object-contain border-2 border-gray-200 rounded-full bg-white"
+        />
+        <p class="mt-3 text-base font-semibold text-[#2c6e63]">Icontech & Ecommerce</p>
+      </div>
+      <div class="flex flex-col items-center">
+        <img 
+          src="https://res.cloudinary.com/dfmigbgri/image/upload/v1757406853/authorized-badge-new_gwgqcw.png" 
+          alt="Zoho Partner Badge" 
+          class="w-28 h-28 object-contain"
+        />
+        <p class="mt-3 text-base font-semibold text-[#2c6e63]">Official Zoho Partner</p>
+      </div>
+    </div>
+    <a
+      href="https://www.zoho.com/partners/work-with-partner.html?src=dd"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block bg-[#2c6e63] px-8 py-3 mt-10 rounded-[30px] text-white text-[15px] font-bold hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px] transition-all"
+    >
+      Discover Our Zoho Partnership
+    </a>
+  </div>
+</section>
 
     <section class="px-6 py-1 bg-white">
       <h1 class="text-center text-base lg:text-[28px] font-[400] text-green-800 mb-12 mt-6">
@@ -273,26 +319,7 @@
         </div>
       
       </div>
-      
-      <p class="text-center text-gray-600 mt-12">
-        For more information, <a href="mailto:icongroup.nigeria@gmail.com" class="text-green-800 font-semibold">Contact Us</a>
-      </p>      
-            </ul>
-          </div>
-        </div>
-      </div>      
-        </div>
-      </div>      
-        </div>
-      </div>
     
-      <div class="text-center mt-12">
-        <a
-          href="https://forms.gle/g535QokcCMVyyKWs5"
-          class="bg-[#2c6e63] px-8 py-4 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px] inline-block"
-        >
-          Connect With Our Team
-        </a>
       </div>
     </section>
     </section>
@@ -508,135 +535,121 @@
     </section>
 
     <section class="bg-gray-100">
-      <div class="flex">
-        <div
-          class="lg:w-[55%] flex px-4 lg:px-20 flex-col items-start py-16 lg:py-36"
-        >
-          <h1 class="font-[700] text-[40px] lg:text-[60px]">Get in touch</h1>
-          <p class="lg:w-[90%] lg:text-[20px] font-[300]">
-            Want to find out more about our business or chat to our team? We’d
-            love to hear from you.
-          </p>
+  <div class="flex flex-col lg:flex-row">
+    <div class="lg:w-[55%] flex px-4 lg:px-20 flex-col items-start py-16 lg:py-36">
+      <h1 class="font-[700] text-[40px] lg:text-[60px] mb-4">Get in touch</h1>
+      <p class="lg:w-[90%] lg:text-[20px] font-[300] mb-8">
+        Want to find out more about our business or chat to our team? We’d love to hear from you.
+      </p>
+      <ul class="flex flex-col gap-2 w-full">
+        <li>
           <a
             href="https://wa.me/+2348057750857"
-            class="bg-[#2c6e63] px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
+            class="flex items-center text-[#2c6e63] hover:underline font-semibold text-[16px]"
+            target="_blank"
+            rel="noopener"
           >
-          Sales Team
+            <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" class="w-5 h-5 mr-2" />
+            Chat with Sales Team on WhatsApp
           </a>
-        </div>
-        <div
-          class="hidden lg:flex w-[50%] bg-[url('https://images.unsplash.com/photo-1502404768591-f24d06b7a366?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center border"
-        ></div>
-      </div>
-    </section>
-
-    <footer
-      class="px-8 py-10 flex flex-col lg:flex-row gap-16 lg:gap-0 justify-between items-center bg-[#f5fef8]"
-    >
-      <div class="flex flex-col gap-4">
-        <button
-          class="flex items-center bg-[#2c6e63] gap-4 px-8 py-4 mt-8 rounded-[30px] text-white text-[14px] font-[700] hover:bg-transparent hover:border hover:border-[#2c6e63] hover:text-[#2c6e63] tracking-[2px]"
-        >
-          <img
-            class="w-[20px]"
-            src="https://img.icons8.com/?size=96&id=22988&format=png"
-            alt=""
-          />
-          DOWNLOAD APP
-        </button>
-        <p class="">Email: icongroup.nigeria@gmail.com</p>
-        <div class="flex gap-4">
+        </li>
+        <li>
           <a
-            href="https://web.facebook.com/iconwholesaleafrica"
-            class="flex items-center justify-center overflow-hidden flex-grow-0 [40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+            href="mailto:icongroup.nigeria@gmail.com"
+            class="flex items-center text-[#2c6e63] hover:underline font-semibold text-[16px]"
           >
-            <svg
-              class="w-6 h-6 text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="white"
-                d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"
-              ></path>
-            </svg>
+            <img src="https://img.icons8.com/color/48/000000/new-post.png" alt="Email" class="w-5 h-5 mr-2" />
+            Email: icongroup.nigeria@gmail.com
           </a>
-
+        </li>
+        <li>
           <a
-            href="https://www.instagram.com/iconwholesale.africa/"
-            class="w-[40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+            href="tel:+2348057750857"
+            class="flex items-center text-[#2c6e63] hover:underline font-semibold text-[16px]"
           >
-            <svg
-              class="w-6 h-6 text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 30 30"
-            >
-              <path
-                fill="white"
-                d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"
-              ></path>
-            </svg>
+            <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone" class="w-5 h-5 mr-2" />
+            Call: +234 805 775 0857
           </a>
-
+        </li>
+        <li>
           <a
-            href="https://x.com/Iconwholesale"
-            class="w-[40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+            href="https://vendor.obana.africa/"
+            class="flex items-center text-[#2c6e63] hover:underline font-semibold text-[16px]"
+            target="_blank"
+            rel="noopener"
           >
-            <svg
-              class="w-6 h-6 text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 30 30"
-            >
-              <path
-                fill="white"
-                d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"
-              ></path>
-            </svg>
+            <img src="https://img.icons8.com/color/48/000000/add-user-group-man-man.png" alt="Vendor" class="w-5 h-5 mr-2" />
+            Become a Vendor
           </a>
-
+        </li>
+        <li>
           <a
-            href="https://www.linkedin.com/company/icongroupafrica"
-            class="w-[40px] h-[40px] bg-[#2c6e63] p-2 rounded-full"
+            href="https://www.zoho.com/partners/work-with-partner.html?src=dd"
+            class="flex items-center text-[#2c6e63] hover:underline font-semibold text-[16px]"
+            target="_blank"
+            rel="noopener"
           >
-            <svg
-              class="w-6 h-6 text-white"
-              xmlns="http://www.w3.org/2000/svg"
-              x="0px"
-              y="0px"
-              width="100"
-              height="100"
-              viewBox="0 0 50 50"
-            >
-              <path
-                fill="white"
-                d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
-              ></path>
-            </svg>
+            <img src="https://img.icons8.com/color/48/000000/handshake.png" alt="Partner" class="w-5 h-5 mr-2" />
+            Partner with Us (Zoho)
           </a>
-        </div>
-      </div>
+        </li>
+        <li>
+          <a
+            href="https://t.me/+HFROrb1D4LFkZDY0"
+            class="flex items-center text-[#229ED9] hover:underline font-semibold text-[16px]"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="https://img.icons8.com/color/48/000000/telegram-app--v1.png" alt="Telegram" class="w-5 h-5 mr-2" />
+            Join our Telegram Community
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://chat.whatsapp.com/BDBuFdqZCOs8Z4s2JXHGmM?mode=ac_t"
+            class="flex items-center text-[#25D366] hover:underline font-semibold text-[16px]"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Channel" class="w-5 h-5 mr-2" />
+            WhatsApp Channel
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="hidden lg:flex w-[50%] bg-[url('https://images.unsplash.com/photo-1502404768591-f24d06b7a366?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center border rounded-r-3xl"
+    ></div>
+  </div>
+</section>
+        
 
-      <div class="flex items-center gap-4">
-        <p class="font-[500]">© All Rights Reserved. Privacy Policy.</p>
-
-        <img
-          src="https://fazsion.ng/storage/app/public/business/2023-12-25-6589e13abc01a.png"
-          alt=""
-        />
-      </div>
-    </footer>
+    <footer class="px-8 py-10 flex flex-col lg:flex-row justify-between items-center bg-[#f5fef8] gap-8">
+  <div class="flex flex-col gap-3">
+    <a href="mailto:icongroup.nigeria@gmail.com" class="text-[#2c6e63] font-semibold hover:underline flex items-center">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="#2c6e63" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" stroke="none"/><path d="M22 6l-10 7L2 6" /></svg>
+      icongroup.nigeria@gmail.com
+    </a>
+    <div class="flex gap-3 mt-2">
+      <a href="https://web.facebook.com/iconwholesaleafrica" target="_blank" rel="noopener" aria-label="Facebook" class="w-9 h-9 flex items-center justify-center bg-[#2c6e63] rounded-full hover:bg-[#1877f2] transition">
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"></path></svg>
+      </a>
+      <a href="https://www.instagram.com/iconwholesale.africa/" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 flex items-center justify-center bg-[#2c6e63] rounded-full hover:bg-[#e1306c] transition">
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 30 30"><path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path></svg>
+      </a>
+      <a href="https://x.com/Iconwholesale" target="_blank" rel="noopener" aria-label="X" class="w-9 h-9 flex items-center justify-center bg-[#2c6e63] rounded-full hover:bg-black transition">
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 30 30"><path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path></svg>
+      </a>
+      <a href="https://www.linkedin.com/company/icongroupafrica" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-9 h-9 flex items-center justify-center bg-[#2c6e63] rounded-full hover:bg-[#0077b5] transition">
+        <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 50 50"><path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg>
+      </a>
+    </div>
+  </div>
+  <div class="flex flex-col items-center gap-2">
+    <span class="font-[500] text-sm text-gray-700">© 2024 Icon Holding Solutions. All rights reserved.. <a href="#" class="underline hover:text-[#2c6e63]">Privacy Policy</a></span>
+    
+  </div>
+</footer>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const mobileMenuButton = document.getElementById("menu-btn");
